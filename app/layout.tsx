@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vercel x Groq Chatbot",
+  title: "Womans-Chats",
   description:
-    "This starter project uses Groq with the AI SDK via the Vercel Marketplace",
+    "Interrupción de embarazo no deseado",
 };
 
 export default function RootLayout({
