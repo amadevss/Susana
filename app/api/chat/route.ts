@@ -1,5 +1,5 @@
 import { model, modelID } from "@/ai/providers";
-import { weatherTool } from "@/ai/tools";
+// import { weatherTool } from "@/ai/tools";
 import { streamText, UIMessage } from "ai";
 
 // Allow streaming responses up to 30 seconds
@@ -33,9 +33,9 @@ export async function POST(req: Request) {
     Sé directo y humano. No moralices. No asumas. El usuario confía en ti para recibir información segura, respetuosa y útil.
     `,
     messages,
-    tools: {
-      getWeather: weatherTool,
-    },
+    // tools: {
+    //   getWeather: weatherTool,
+    // },
     experimental_telemetry: {
       isEnabled: true,
     },
