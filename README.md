@@ -1,83 +1,46 @@
 <a href="https://ai-sdk-starter-groq.vercel.app">
-  <h1 align="center">Vercel x Groq Chatbot</h1>
+  <h1 align="center">Chatbot para Interrupción Segura del Embarazo</h1>
 </a>
 
 <p align="center">
-  An open-source AI chatbot app template built with Next.js, the AI SDK by Vercel, and Groq.
+  Un asistente conversacional de código abierto enfocado en brindar información clara, segura y acompañada sobre la interrupción voluntaria del embarazo, construido con Next.js, el AI SDK de Vercel y Groq.
 </p>
 
 <p align="center">
-  <a href="#features"><strong>Features</strong></a> ·
-  <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
-  <a href="#running-locally"><strong>Running Locally</strong></a> ·
-  <a href="#authors"><strong>Authors</strong></a>
+  <a href="#acerca-del-proyecto"><strong>Acerca del Proyecto</strong></a> ·
+  <a href="#características"><strong>Características</strong></a> ·
+  <a href="#autores"><strong>Autores</strong></a>
 </p>
 <br/>
 
-## Features
+## Acerca del Proyecto
 
-- Streaming text responses powered by the [AI SDK by Vercel](https://sdk.vercel.ai/docs), allowing multiple AI providers to be used interchangeably with just a few lines of code.
-- Built-in tool integration for extending AI capabilities (demonstrated with a weather tool example).
-- Reasoning model support.
-- [shadcn/ui](https://ui.shadcn.com/) components for a modern, responsive UI powered by [Tailwind CSS](https://tailwindcss.com).
-- Built with the latest [Next.js](https://nextjs.org) App Router.
+Este chatbot nace de una necesidad real: **acceso a información segura, empática y basada en evidencia** para mujeres y personas gestantes que enfrentan embarazos no deseados. En muchos contextos, especialmente en regiones donde el aborto es un tema estigmatizado o poco accesible, contar con una herramienta de acompañamiento confiable puede marcar una diferencia vital.
 
-## Deploy Your Own
+### 🎯 Finalidad
 
-You can deploy your own version to Vercel by clicking the button below:
+El propósito de este proyecto es:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?project-name=Vercel+x+Groq+Chatbot&repository-name=ai-sdk-starter-groq&repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-starter-groq&demo-title=Vercel+x+Groq+Chatbot&demo-url=https%3A%2F%2Fai-sdk-starter-groq.labs.vercel.dev%2F&demo-description=A+simple+chatbot+application+built+with+Next.js+that+uses+Groq+via+the+AI+SDK+and+the+Vercel+Marketplace&products=%5B%7B%22type%22%3A%22integration%22%2C%22protocol%22%3A%22ai%22%2C%22productSlug%22%3A%22api-key%22%2C%22integrationSlug%22%3A%22groq%22%7D%5D)
+- Brindar orientación clara sobre métodos seguros de interrupción temprana del embarazo.
+- Formular preguntas clave para comprender mejor el contexto del usuario (edad, semanas de gestación, historial médico, etc.).
+- Promover siempre el acompañamiento médico y evitar la automedicación sin supervisión.
+- Orientar hacia servicios médicos, organizaciones confiables o líneas de ayuda según la región.
 
-## Running Locally
+### 💡 Motivaciones
 
-1. Clone the repository and install dependencies:
+Muchas personas recurren a internet en busca de respuestas rápidas sobre cómo interrumpir un embarazo. Sin embargo, la desinformación abunda y puede poner en riesgo la salud física y mental. Este chatbot fue creado para **llenar ese vacío con empatía, responsabilidad y respaldo técnico**.
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   ```
+### 🌍 Visión
 
-2. Install the [Vercel CLI](https://vercel.com/docs/cli):
+Creemos en un futuro donde cualquier persona pueda acceder a la información que necesita sin miedo, juicio ni barreras técnicas. Herramientas como este chatbot no solo informan: **acompañan, orientan y salvan vidas**. Queremos que sea una guía accesible, segura y disponible en múltiples idiomas y plataformas.
 
-   ```bash
-   npm i -g vercel
-   # or
-   yarn global add vercel
-   # or
-   pnpm install -g vercel
-   ```
+---
 
-   Once installed, link your local project to your Vercel project:
+## Características
 
-   ```bash
-   vercel link
-   ```
+- Conversación guiada y adaptativa según el contexto del usuario.
+- Información basada en recomendaciones de la OMS y protocolos médicos verificados.
+- Claridad sobre métodos farmacológicos (Mifepristona + Misoprostol) y sus diferencias.
+- Enlaces o recursos hacia servicios médicos seguros (según país/región).
+- Componentes modernos usando shadcn/ui y Tailwind CSS.
 
-   After linking, pull your environment variables:
-
-   ```bash
-   vercel env pull
-   ```
-
-   This will create a `.env.local` file with all the necessary environment variables.
-
-3. Run the development server:
-
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) to view your new AI chatbot application.
-
-## Authors
-
-This repository is maintained by the [Vercel](https://vercel.com) team and community contributors.
-
-Contributions are welcome! Feel free to open issues or submit pull requests to enhance functionality or fix bugs.
