@@ -15,7 +15,6 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Womans-Chats",
-  favicon: "/favicon.svg",
   description:
     "Interrupción de embarazo no deseado",
 };
