@@ -31,7 +31,7 @@ export default function Chat() {
 
   return (
     <div className="h-dvh flex flex-col justify-center w-full stretch">
-      <Header />
+      {/* <Header /> */}
       {messages.length === 0 ? (
         <div className="max-w-xl mx-auto w-full">
           <ProjectOverview />
