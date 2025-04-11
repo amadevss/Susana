@@ -28,7 +28,7 @@ export const Textarea = ({
         className="resize-none bg-secondary w-full rounded-2xl pr-12 pt-4 pb-16"
         value={input}
         autoFocus
-        placeholder={"Say something..."}
+        placeholder={"Dime que puedo hacer por ti con confianza..."}
         // @ts-expect-error err
         onChange={handleInputChange}
         onKeyDown={(e) => {
