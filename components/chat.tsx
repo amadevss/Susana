@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Textarea } from "./textarea";
 import { ProjectOverview } from "./project-overview";
 import { Messages } from "./messages";
-import { Header } from "./header";
+// import { Header } from "./header";
 import { toast } from "sonner";
 
 export default function Chat() {
