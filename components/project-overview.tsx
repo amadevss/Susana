@@ -1,4 +1,4 @@
-import NextLink from "next/link";
+// import NextLink from "next/link";
 export const ProjectOverview = () => {
   return (
     <div className="flex flex-col items-center justify-end">
@@ -18,12 +18,12 @@ const Link = ({
   href: string;
 }) => {
   return (
-    <NextLink
-      target="_blank"
-      className="text-blue-500 hover:text-blue-600 transition-colors duration-75"
-      href={href}
-    >
+    // <NextLink
+    //   target="_blank"
+    //   className="text-blue-500 hover:text-blue-600 transition-colors duration-75"
+    //   href={href}
+    // >
       {children}
-    </NextLink>
+    // </NextLink>
   );
 };
