@@ -1,5 +1,6 @@
+
 <a href="https://ai-sdk-starter-groq.vercel.app">
-  <h1 align="center">Chatbot para Interrupción Segura del Embarazo</h1>
+  <h1 align="center">Susana: Chatbot para Interrupción Segura del Embarazo</h1>
 </a>
 
 <p align="center">
@@ -15,7 +16,7 @@
 
 ## Acerca del Proyecto
 
-Este chatbot nace de una necesidad real: **acceso a información segura, empática y basada en evidencia** para mujeres y personas gestantes que enfrentan embarazos no deseados. En muchos contextos, especialmente en regiones donde el aborto es un tema estigmatizado o poco accesible, contar con una herramienta de acompañamiento confiable puede marcar una diferencia vital.
+Susana nace de una necesidad real: **acceso a información segura, empática y basada en evidencia** para mujeres y personas gestantes que enfrentan embarazos no deseados. En muchos contextos, especialmente en regiones donde el aborto es un tema estigmatizado o poco accesible, contar con una herramienta de acompañamiento confiable puede marcar una diferencia vital.
 
 ### 🎯 Finalidad
 
@@ -28,11 +29,11 @@ El propósito de este proyecto es:
 
 ### 💡 Motivaciones
 
-Muchas personas recurren a internet en busca de respuestas rápidas sobre cómo interrumpir un embarazo. Sin embargo, la desinformación abunda y puede poner en riesgo la salud física y mental. Este chatbot fue creado para **llenar ese vacío con empatía, responsabilidad y respaldo técnico**.
+Muchas personas recurren a internet en busca de respuestas rápidas sobre cómo interrumpir un embarazo. Sin embargo, la desinformación abunda y puede poner en riesgo la salud física y mental. Susana fue creada para **llenar ese vacío con empatía, responsabilidad y respaldo técnico**.
 
 ### 🌍 Visión
 
-Creemos en un futuro donde cualquier persona pueda acceder a la información que necesita sin miedo, juicio ni barreras técnicas. Herramientas como este chatbot no solo informan: **acompañan, orientan y salvan vidas**. Queremos que sea una guía accesible, segura y disponible en múltiples idiomas y plataformas.
+Creemos en un futuro donde cualquier persona pueda acceder a la información que necesita sin miedo, juicio ni barreras técnicas. Herramientas como Susana no solo informan: **acompañan, orientan y salvan vidas**. Queremos que sea una guía accesible, segura y disponible en múltiples idiomas y plataformas.
 
 ---
 
@@ -44,3 +45,30 @@ Creemos en un futuro donde cualquier persona pueda acceder a la información que
 - Enlaces o recursos hacia servicios médicos seguros (según país/región).
 - Componentes modernos usando shadcn/ui y Tailwind CSS.
 
+---
+
+## Autores
+
+- [Amadevss](https://github.com/amadevss)
+
+---
+
+## Contribución
+
+¡Las contribuciones son bienvenidas! Por favor, lee nuestro [Código de Conducta](CODE_OF_CONDUCT.md) y sigue los pasos en [CONTRIBUTING.md](CONTRIBUTING.md) para comenzar.
+
+---
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtR5HXkYvQRc84/giphy.gif" width="200"/>
+</p>
+
+---
+
+⭐ ¡Gracias por visitar nuestro repositorio! ⭐
